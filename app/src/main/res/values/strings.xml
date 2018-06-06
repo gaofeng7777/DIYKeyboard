@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" translatable="false">DIY Keyboard</string>
+    <string name="please_first">Please complete the first step first</string><!--请先完成第一步-->
+    <string name="please_choose">Please choose DIY Keyboard</string>
+    <string name="first_text"> * If the system prompts the risk of input method,please rest assured that click OK button,DIY Keyboard will not harm your system security.</string>
+    <string name="word_separators" translatable="false">\u0020.,;:!?\n()[]*&amp;@{}/&lt;&gt;_+=|&quot;</string>
+    <string name="label_go_key" translatable="false">Go</string>
+    <string name="label_next_key" translatable="false">Next</string>
+    <string name="label_send_key" translatable="false">Send</string>
+    <string name="label_subtype_generic" translatable="false">%s</string>
+    <string name="label_subtype_en_GB" translatable="false">English (GB)</string>
+    <string name="settings_name" translatable="false">Android Keyboard Settings</string>
+    <string name="language_selection_title" translatable="false">Input languages</string>
+    <string name="select_language" translatable="false">Select input languages</string>
+    <string name="general_category" translatable="false">General</string>
+
+    <string name="facebook_app_id">136319740313755</string>
+
+</resources>

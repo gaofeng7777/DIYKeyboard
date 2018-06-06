@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.bjuw.twnln.view.Cut2Activity">
+
+    <RelativeLayout
+        android:id="@+id/activity_cut2_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/preview"/>
+        <ImageButton
+            android:id="@+id/activity_cut2_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/activity_theme_back"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_below="@+id/activity_cut2_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/activity_cut2_bg">
+
+    <ImageView
+        android:id="@+id/iv_cut2activity"
+        android:layout_width="270dp"
+        android:layout_height="192dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="149dp"
+        android:scaleType="centerCrop" />
+
+    <ImageView
+        android:layout_width="270dp"
+        android:layout_height="192dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="149dp"
+        android:background="@drawable/activity_cut2_keyboard_bg"/>
+
+    <ImageButton
+        android:id="@+id/btn_cut2activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/activity_cut2_ok"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="405dp"
+        android:layout_marginRight="89dp"/>
+    <ImageButton
+        android:id="@+id/btn_b_cut2activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/activity_cut2_cancel"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="405dp"
+        android:layout_marginLeft="89dp"/>
+    </RelativeLayout>
+</RelativeLayout>

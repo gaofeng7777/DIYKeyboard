@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/theme_activity_bg" >
+
+    <RelativeLayout
+        android:id="@+id/txt_themeslist_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/theme_title">
+  <ImageButton
+      android:id="@+id/activity_theme_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/activity_theme_back" />
+    </RelativeLayout>
+
+      <GridView
+          android:id="@+id/listView_themes_list"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/txt_themeslist_name"
+          android:layout_gravity="center_vertical"
+          android:layout_marginTop="10dp"
+          android:cacheColorHint="@android:color/transparent"
+          android:gravity="center"
+          android:numColumns="auto_fit" >
+
+      </GridView>
+      
+      </RelativeLayout>

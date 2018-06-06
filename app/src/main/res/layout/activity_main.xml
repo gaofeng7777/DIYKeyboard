@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_bg"
+    android:background="@drawable/ic_main_bg_false">
+
+    <ImageButton
+        android:id="@+id/set_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="165dp"
+        android:background="@drawable/ic_spep1" />
+
+    <TextView
+        android:id="@+id/main_text"
+        android:textSize="12sp"
+        android:textColor="#d7effe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/set_a"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="20dp"
+        android:gravity="left"
+        android:text="@string/first_text"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/transparent"/>
+
+    <ImageButton
+        android:id="@+id/set_b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/main_text"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ic_spep2"/>
+
+    <ImageButton
+        android:id="@+id/set_theme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/main_theme_selecter"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="7dp" />
+
+
+    <ImageButton
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/main_customtheme_selecter"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="17dp" />
+
+
+
+</RelativeLayout>
